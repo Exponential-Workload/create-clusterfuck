@@ -1,7 +1,7 @@
 {
   "name": "create-clusterfuck",
   "displayName": "Create Clusterfuck",
-  "version": "0.0.6-updeps-2",
+  "version": "0.0.7-no-gitinit",
   "description": "A templating tool for a variety of different utilities",
   "main": "dist/index.js",
   "scripts": {
