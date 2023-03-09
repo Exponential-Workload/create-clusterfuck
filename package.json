@@ -1,8 +1,8 @@
 {
-  "name": "create-blb",
-  "displayName": "Create BLB",
-  "version": "0.1.2",
-  "description": "Creates a blb application",
+  "name": "create-clusterfuck",
+  "displayName": "Create Clusterfuck",
+  "version": "0.0.1",
+  "description": "A templating tool for a variety of different utilities",
   "main": "dist/index.js",
   "scripts": {
     "build": "rollup -c --bundleConfigAsCjs",
@@ -31,6 +31,6 @@
     "get-cursor-position": "^2.0.0",
     "prompts": "^2.4.2"
   },
-  "homepage": "https://github.com/BreadCity/create-blb",
+  "homepage": "https://github.com/Exponential-Workload/create-clusterfuck",
   "bin": "dist/index.js"
 }

@@ -1,7 +1,7 @@
-# Create-BLB
+# Create-Clusterfuck
 
-Initializes a [blb](https://npm.im/basic-lua-bundler) project
+Initializes one of many typescript templates - [see here](https://github.com/Exponential-Workload/create-clusterfuck/tree/main/templateFiles).
 
 ## Usage
 
-`pnpm create blb`
+`pnpm create clusterfuck`
