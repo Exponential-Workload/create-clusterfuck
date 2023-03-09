@@ -1,7 +1,7 @@
 {
   "name": "create-clusterfuck",
   "displayName": "Create Clusterfuck",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A templating tool for a variety of different utilities",
   "main": "dist/index.js",
   "scripts": {
@@ -10,7 +10,21 @@
     "start": "node .",
     "prepublish": "pnpm build"
   },
-  "keywords": [],
+  "keywords": [
+    "typescript",
+    "create-app",
+    "create-typescript",
+    "typescript-electron",
+    "electron-sveltekit",
+    "svelte",
+    "sveltekit",
+    "webdev",
+    "web",
+    "electron",
+    "template",
+    "templating",
+    "scaffolding"
+  ],
   "author": "Exponential-Workload",
   "license": "MIT",
   "devDependencies": {
