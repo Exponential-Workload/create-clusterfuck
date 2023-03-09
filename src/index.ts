@@ -176,7 +176,7 @@ const mappings = {
   if (!existsSync(outdir))
     ensureDirSync(outdir);
   logger.info('Copying Template')
-  copySync(resolve(baseTemplateFiles, 'all'), outdir)
+  // copySync(resolve(baseTemplateFiles, 'all'), outdir)
   copySync(resolve(baseTemplateFiles, response.template), outdir)
   logger.info('Overwriting package.json')
   const processPackageJSON = (pkg: string) => {
