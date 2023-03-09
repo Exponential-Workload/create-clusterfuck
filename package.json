@@ -1,7 +1,7 @@
 {
   "name": "create-clusterfuck",
   "displayName": "Create Clusterfuck",
-  "version": "0.0.7-i-hate-programming",
+  "version": "0.0.7",
   "description": "A templating tool for a variety of different utilities",
   "main": "dist/index.js",
   "scripts": {
