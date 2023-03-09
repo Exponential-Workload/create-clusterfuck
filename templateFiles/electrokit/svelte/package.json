@@ -13,7 +13,7 @@
   },
   "devDependencies": {
     "@sveltejs/adapter-static": "^2.0.1",
-    "@sveltejs/kit": "^1.10.0",
+    "@sveltejs/kit": "^1.11.0",
     "@typescript-eslint/eslint-plugin": "^5.54.1",
     "@typescript-eslint/parser": "^5.54.1",
     "eslint": "^8.35.0",
@@ -27,6 +27,6 @@
   },
   "type": "module",
   "dependencies": {
-    "vite-plugin-commit-hash": "^1.0.2"
+    "vite-plugin-commit-hash": "^1.0.3"
   }
 }
