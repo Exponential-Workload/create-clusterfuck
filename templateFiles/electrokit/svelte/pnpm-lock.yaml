@@ -13,10 +13,10 @@ specifiers:
   tslib: ^2.5.0
   typescript: ^4.9.5
   vite: ^4.1.4
-  vite-plugin-commit-hash: ^1.0.3
+  vite-plugin-commit-hash: ^1.0.4
 
 dependencies:
-  vite-plugin-commit-hash: 1.0.3_vite@4.1.4
+  vite-plugin-commit-hash: 1.0.4_vite@4.1.4
 
 devDependencies:
   '@sveltejs/adapter-static': 2.0.1_@sveltejs+kit@1.11.0
@@ -1634,8 +1634,8 @@ packages:
       punycode: 2.3.0
     dev: true
 
-  /vite-plugin-commit-hash/1.0.3_vite@4.1.4:
-    resolution: {integrity: sha512-Vgw70d5jm0T9EuptV2WtQo8yl3ifamBq9Pjqv9OK/lx1lhqP9LTguU9bpsjwRxyTUU04XB9zHXNrnkxHthrExA==}
+  /vite-plugin-commit-hash/1.0.4_vite@4.1.4:
+    resolution: {integrity: sha512-pRWpZOvn2m4tR6vk9qwpAxUZNllql5Ycv2hTDTgJEdzARvSLC2UHV2r01J1X7yJ8cbUqiGbrVUPE5ifEtCDnmw==}
     peerDependencies:
       vite: '>=2'
     dependencies:

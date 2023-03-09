@@ -27,6 +27,6 @@
   },
   "type": "module",
   "dependencies": {
-    "vite-plugin-commit-hash": "^1.0.3"
+    "vite-plugin-commit-hash": "^1.0.4"
   }
 }
