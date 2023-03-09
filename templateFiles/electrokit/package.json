@@ -11,7 +11,7 @@
     "install": "cd svelte && pnpm i && cd ../electron && pnpm i",
     "upgrade-deps": "pnpm upgrade && cd svelte && pnpm upgrade && cd ../electron && pnpm upgrade",
     "upgrade-deps:l": "pnpm upgrade -L && cd svelte && pnpm upgrade -L && cd ../electron && pnpm upgrade -L",
-    "postcreate": "pnpm i && pnpm build && git init"
+    "postcreate": "git init && pnpm i && pnpm build"
   },
   "keywords": [],
   "author": "Expo",
