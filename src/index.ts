@@ -173,6 +173,8 @@ const mappings = {
   }
   if (existsSync(resolve(baseTemplateFiles, response.template, '.requires-pnpm')) && packageManager !== 'pnpm')
     return logger.error('ENOPNPM', 'This template requires PNPM - Install it using a script from https://pnpm.io')
+  if (existsSync(resolve(baseTemplateFiles, response.template, '.requires-git')) && !commandExistsSync('git'))
+    return logger.error('ENOGIT', 'This template requires git installed! On *nix distros, simply use your package manager to install it.')
   if (!existsSync(outdir))
     ensureDirSync(outdir);
   logger.info('Copying Template')
@@ -225,6 +227,8 @@ const mappings = {
   }
   if (existsSync(resolve(outdir, '.requires-pnpm')))
     rmSync(resolve(outdir, '.requires-pnpm'))
+  if (existsSync(resolve(outdir, '.requires-git')))
+    rmSync(resolve(outdir, '.requires-git'))
   logger.info('Initial Build')
   execSync(packageManagerRun + ' build', {
     cwd: outdir
